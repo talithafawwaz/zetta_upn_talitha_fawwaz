@@ -19,7 +19,7 @@ function bookPurchasing({title, price, category, author, status}, discount, tax)
         
 let book = {
     "title": "Hello Salma",
-    "price": 99000,
+    "price": 100000,
     "category" : "Novel",
     "author" : "Erisca Febriani",
     "status" : true
