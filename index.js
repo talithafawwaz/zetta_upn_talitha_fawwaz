@@ -54,6 +54,7 @@ function credit(totalHarga, durationCredit, taxCredit){
     console.log("");
     console.log("                    MENU KREDIT                    ");
     console.log("");
+    console.log("===================================================");
     console.log("Total Harga = Rp." + totalHarga);
     console.log("Pajak = "+ taxCredit + "%");
     amountTaxCredit = totalHarga * taxCredit * 0.01;
@@ -66,7 +67,5 @@ function credit(totalHarga, durationCredit, taxCredit){
     for (let j=1; j<=durationCredit; j++){
         console.log("Bulan ke-" + j + " = " + bulananCredit);
     }
-    console.log("");
-    console.log("===================================================");
 }
 credit(bookPurchasing(book, 20, 5, 3), 6, 10);
